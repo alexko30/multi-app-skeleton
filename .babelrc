@@ -1,0 +1,18 @@
+{
+  "presets": [
+    "@babel/preset-react",
+    [
+      "@babel/preset-env",
+      {
+        "modules": false,
+        "targets": "> 0.25%, not dead",
+        "useBuiltIns": "entry"
+      }
+    ]
+  ],
+  "plugins": [
+    "@babel/proposal-export-default-from",
+    "@babel/syntax-dynamic-import",
+    "@babel/syntax-import-meta"
+  ]
+}
